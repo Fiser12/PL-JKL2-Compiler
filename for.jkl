@@ -1,0 +1,9 @@
+program forprograma;
+var i;
+var res;
+begin
+	for i:=1 to 4 do write i;
+	for i:=1 to i+4 do write i;
+	for i:=4 downto 1 do write i;
+end
+.

@@ -1,0 +1,29 @@
+program case1;
+var i;
+var res;
+begin
+	writec "Escriba un n˙mero: ";
+	read i;
+	writec "Valor de i: ";
+	write i;
+	writeln;
+	writec "El doble de i vale ";
+	case i*2 of
+	2:	writec "dos";
+	8:	begin
+			writec "ocho";
+		end
+	other:
+		begin
+			writec "ni dos ";
+			writec "ni ocho";
+		end
+	end
+	writeln;
+	res := 3;
+	res *:= i;
+	writec "El triple de i es: ";
+	write res;
+	writeln;
+end
+.

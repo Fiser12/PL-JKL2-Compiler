@@ -1,0 +1,8 @@
+program ifprograma;
+var i;
+begin
+	i := 2;
+	if i = 2 then i := 27;
+	write i;
+end
+.

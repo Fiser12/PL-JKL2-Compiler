@@ -1,0 +1,23 @@
+// Programa de prueba: factorial iterativo con do
+
+program factorial;
+var i;
+var res;
+begin
+	writec "Escriba un número: ";
+	read i;
+	writec "Valor de i: ";
+	write i;
+	writeln;
+	writec "Se va a calcular el factorial";
+	writeln;
+	res := 1;
+	do begin
+		res := res * i;
+		i := i - 1;
+	end while i > 1;
+	writec "Resultado: ";
+	write res;
+	writeln;
+end
+.
